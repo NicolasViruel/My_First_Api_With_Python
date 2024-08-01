@@ -9,14 +9,4 @@ class DevelopmentConfig():
 
 config = {
     'development': DevelopmentConfig
-}
-
-
-# import MySQLdb
-
-# db = MySQLdb.connect(host="localhost", user="root", password="pichones1", db="flask_cursos")
-# cursor = db.cursor()
-# cursor.execute("SELECT VERSION()")
-# data = cursor.fetchone()
-# print(f"Database version : {data}")
-# db.close()    
+} 
